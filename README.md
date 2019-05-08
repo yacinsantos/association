@@ -2,6 +2,7 @@
 How to Setup a Laravel Project:
 1. Clone GitHub repo for this project locally
 https://github.com/FadyBengoufa/E-commerce.git
+or download the zip folder
 2. cd into this e-commerce project after you cloned it
 3. Install Composer Dependencies this will add a composer.json file
 composer install
