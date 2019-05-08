@@ -41,19 +41,11 @@ php artisan migrate
 
 php artisan db:seed
 
-To access the admin dashboard you need to go to admin/login then add in the database in the admins table using the terminal but before that you need to:
-
-1-add an "Admin.php file" in the "/vendor/laravel/framework/src/Illuminate/Foundation/Auth" 
-
-2-copy the code in the "User.php" in located in the same path into the "Admin.php" file
-
-3-change the class User to Admin
-
-4-go to your terminal and type: 
+To access the admin dashboard you need to go to admin/login then add in the database in the admins table using the terminal by typing:
 
 "php artisan tinker"
 
-then create and admin instance : 
+then create an admin instance : 
 
 $admin = new App\Admin();
 
