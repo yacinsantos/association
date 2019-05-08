@@ -25,6 +25,15 @@ php artisan migrate
 10.Seed the database
 php artisan db:seed
 
-and Hopefully that's all you need to start your project
+To access the admin dashboard you need to go to admin/login then add in the database in the admins table using the terminal:
+php artisan tinker 
+then create and admin instance : $admin = new App\Admin();
+add the name and email and the hashed password :
+$admin-name = "adminname"
+$admin-email = "adminname@gmail.com"
+$admin->password = Hash::make(123456789); //need to be at least 8 characters
+$admin->save();
+Then you can log in as admin !
+and Hopefully that's all you need to start your project.
 
 
