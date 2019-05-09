@@ -1,9 +1,9 @@
-# E-commerce
+# Association
 How to Setup a Laravel Project:
 
 1. Clone GitHub repo for this project locally
 
-https://github.com/FadyBengoufa/E-commerce.git
+https://github.com/yacinsantos/association.git
 
 or download the zip folder
 
